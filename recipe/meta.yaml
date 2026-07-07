@@ -1,13 +1,13 @@
 {% set name = "stopwordsiso" %}
-{% set version = "0.6.1" %}
+{% set version = "0.7.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5be2b4f25afc296fca4f626710b98168949057f81a655e2dbdf670ddfce2af50
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 10c1cf5df1c31646175178b0b13f0bd2e622384f4a3554986ed3acf85d73c9f0
 
 build:
   number: 0
